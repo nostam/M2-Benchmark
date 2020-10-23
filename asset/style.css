@@ -1,3 +1,4 @@
+/* global */
 body {
   background-color: #d8d8d8;
   color: #000;
@@ -6,7 +7,7 @@ body {
 section {
   margin-bottom: 1rem;
 }
-
+/* nav */
 .topline {
   margin: 0;
   height: 4px;
@@ -36,6 +37,74 @@ ul.navbar-nav li.nav-item > span {
   margin-top: 0.25rem;
   font-size: 0.8rem;
 }
+/* caroseusel */
+.gog-carousel-caption {
+  left: 5%;
+  right: 5%;
+}
+.carousel-indicators {
+  bottom: -3rem;
+}
+.carousel-indicators li {
+  background-color: #979797;
+  /* height: 3px; */
+}
+.carousel-indicators .active {
+  background-color: #86328a;
+  /* border: 1px solid #86328a; */
+  /* height: 3px; */
+  /* loading indicator */
+}
+.carousel-inner {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+.carousel-item {
+  max-height: 460px;
+  max-width: 1096px;
+}
+.gog-carousel-caption h4 {
+  display: flex;
+  flex: column;
+  align-items: center;
+}
+.carouselBtn {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1.5rem;
+  color: white;
+  border: rgba(120, 56, 123, 1);
+  background: linear-gradient(
+    180deg,
+    rgba(244, 0, 255, 1) 0%,
+    rgba(120, 56, 123, 1) 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 0px 28px 8px,
+    rgba(0, 0, 0, 0.5) 0px 1px 5px 0px;
+}
+.imgOverflow {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .jumbCarouselCaption {
+  left: 5%;
+  right: 5%;
+  position: relative;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+} */
+
 .discriptive {
   color: #404040;
   font-weight: 300;
@@ -70,7 +139,32 @@ ul.navbar-nav li.nav-item > span {
 .featureDealsCard {
   width: 256px;
 }
-
-footer div {
-  margin: 0.5rem auto;
+/* footer */
+footer a,
+footer {
+  color: rgba(255, 255, 255, 0.43);
+  line-height: 2rem;
+  font-size: 12px;
+  font-weight: 400;
+}
+footer a,
+footer span {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+footer a.active {
+  color: rgb(218, 139, 240);
+}
+footer > .row {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer > div:nth-of-type(odd) {
+  background-color: #262626;
+}
+footer > div:nth-of-type(even) {
+  background-color: #2f2f2f;
+}
+.legal {
+  margin-left: 1rem;
 }
