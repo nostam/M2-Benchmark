@@ -1,4 +1,7 @@
 /* global */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 body {
   background-color: #d8d8d8;
   color: #000;
@@ -22,6 +25,7 @@ section {
   color: #ccc;
   background-color: #2c2c2c;
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  z-index: 99;
 }
 .gog-navbar a {
   color: #ccc;
@@ -104,23 +108,72 @@ ul.navbar-nav li.nav-item > span {
   color: #fff;
   text-align: center;
 } */
+/* 4 cards */
+.card-img-top {
+  width: 256px;
+  height: 116px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
 
+.card {
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.smallTitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+.card-price {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: end;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.btn-purple {
+  background: rgb(120, 56, 123);
+  color: white;
+  font-weight: bolder;
+  margin-right: 0.5rem;
+}
+.oldPrice {
+  color: grey;
+  font-size: 0.75rem;
+  text-decoration: line-through;
+}
+.newPrice {
+  line-height: 1rem;
+}
+/* motto */
 .discriptive {
+  font-size: 14px;
   color: #404040;
-  font-weight: 300;
 }
 .discriptive a {
   color: #de8ae5;
 }
 
-.card {
-  margin: 1rem;
-  border: 1px solid green;
+.vl {
+  border-left: 1px solid grey;
+  height: 2rem;
+  display: inline-flex;
+  position: relative;
 }
-.card-body {
-  padding: 0;
+.motto-purple {
+  color: rgb(134, 50, 138);
 }
-
+.gog-galaxy-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* Now on Sale */
 .percentage {
   width: 1.5rem;
   height: 1.5rem;
