@@ -173,6 +173,30 @@ ul.navbar-nav li.nav-item > span {
   font-size: 14px;
   font-weight: bold;
 }
+/* visa card */
+.visaCard {
+  color: white;
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  max-height: 100px;
+  border-radius: 0.25rem;
+  background-color: blue;
+  background-image: url("./tile\ \(35\).jpg");
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.visaGOG {
+  left: 10%;
+}
+.vl2 {
+  border-left: 1px solid grey;
+  height: 3rem;
+  display: inline-flex;
+  position: relative;
+}
 /* Now on Sale */
 .percentage {
   width: 1.5rem;
