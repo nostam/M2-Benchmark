@@ -1,10 +1,12 @@
 body {
   background-color: #d8d8d8;
+  color: #000;
 }
 
 section {
   margin-bottom: 1rem;
 }
+
 .topline {
   margin: 0;
   height: 4px;
@@ -12,16 +14,36 @@ section {
 .topline img {
   z-index: 2;
   display: flex;
+}
+
+.gog-navbar {
+  height: 52px;
+  color: #ccc;
+  background-color: #2c2c2c;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.gog-navbar a {
+  color: #ccc;
+}
+.gog-navbar a:hover {
+  color: #fff;
+}
+.gov-navbar-brand {
   position: relative;
+  top: -4px;
+}
+ul.navbar-nav li.nav-item > span {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
 }
 .discriptive {
   color: #404040;
   font-weight: 300;
 }
-
-a {
+.discriptive a {
   color: #de8ae5;
 }
+
 .card {
   margin: 1rem;
   border: 1px solid green;
