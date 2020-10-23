@@ -209,8 +209,10 @@ ul.navbar-nav li.nav-item > span {
 .bi.bi-percent {
   position: relative;
   display: block;
-  top: 0.25rem;
-  left: 0.25rem;
+  width: 50%;
+  height: 50%;
+  top: 0.4rem;
+  left: 0.4rem;
 }
 
 .featureDealsCard {
